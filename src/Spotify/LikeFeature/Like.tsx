@@ -2,7 +2,7 @@ import React from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {State} from "../../store";
 import {addSongToPlaylist, removeSongFromPlaylist} from "../../Slices/playlistsSlice";
-import './Like.css'
+import './Like.scss'
 
 interface Song {
     title: string,
