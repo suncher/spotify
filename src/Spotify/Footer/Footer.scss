@@ -1,0 +1,115 @@
+.Container {
+    height: 112px;
+    width: 100%;
+    background-color: #181818;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    color: white;
+}
+
+.MusicContainer {
+    display: flex;
+}
+
+.MusicImage {
+    height: 75px;
+    width: 75px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.MusicInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 13px;
+    flex-direction: column;
+}
+
+
+
+.MusicTitle {
+    font-weight: bold;
+    margin-bottom: 3px;
+    width: 250px;
+}
+.Artist {
+    font-size: 12px;
+    margin-bottom: 3px;
+    width: 250px;
+}
+.MusicHeart {
+    height: 20px;
+    width: 18px;
+}
+
+.MusicButtonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: calc(50% - 363px);
+}
+
+.MusicButton{
+    display: flex;
+}
+
+.choseRandomMusicButton{
+    height: 24px;
+    width: 24px;
+    margin-top: 28px;
+    margin-right: 10px;
+}
+
+.PreviousButton{
+    height: 31px;
+    width: 31px;
+    margin-top: 23px;
+    margin-right: 10px;
+}
+
+.PlayButton{
+    height: 51px;
+    width: 51px;
+    margin-top: 14px;
+}
+
+.NextButton{
+    height: 31px;
+    width: 31px;
+    margin-top: 23px;
+    margin-left: 10px;
+    transform: rotate(180deg);
+}
+
+.RepeatButton{
+    height: 22px;
+    width: 22px;
+    margin-top: 28px;
+    margin-left: 10px;
+}
+
+
+
+.MusicBar{
+    width: 633px;
+    height: 7px;
+    border-radius: 2.5px;
+    background-color: #535353;
+    margin-top: 16px;
+}
+
+
+
+.RightOptions{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 28px;
+    top: 38px;
+}
+
+
+

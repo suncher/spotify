@@ -1,12 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit';
-import playlistsReducer, { Playlist } from './Slices/playlistsSlice';
+import playlistsReducer from './Slices/playlistsSlice';
+import { Spotify } from './interface/interface';
 
 export interface State {
-    playlists: Playlist[];
+    spotify: Spotify;
 }
 
 export default configureStore({
     reducer: {
-        playlists: playlistsReducer,
+        spotify: playlistsReducer,
     },
 });

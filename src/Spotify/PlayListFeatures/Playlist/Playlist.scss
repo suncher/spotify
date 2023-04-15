@@ -1,0 +1,77 @@
+.Banner {
+  height: 245px;
+  display: flex;
+
+  .BannerBox {
+    position: absolute;
+    width: 185px;
+    height: 185px;
+    left: 336px;
+    top: 28px;
+    font-size: 38px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius:8px;
+  }
+
+  .BannerTitle {
+    position: absolute;
+    width: 596px;
+    height: 95px;
+    left: 561px;
+    top: 64px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 125px;
+    letter-spacing: -0.02em;
+    color: white;
+  }
+}
+.OptionsContainer {
+  display: flex;
+    justify-content: flex-end;
+    margin-right: 30.8px;
+    margin-top: 15px;
+  
+}
+.placeHolder {
+  width:220px;
+  
+}
+.inputContainer {
+  padding-right:8px;
+}
+.Table {
+  margin-top: 24px;
+  margin-left: 43px;
+  margin-right: 28px;
+
+  .index {
+    vertical-align: middle;
+  }
+
+  .title {
+    vertical-align: middle;
+  }
+
+  .year {
+    width: 10%;
+    vertical-align: middle;
+  }
+
+  .genre {
+    width: 30%;
+    vertical-align: middle;
+  }
+
+  .popularity {
+    width: 10%;
+    vertical-align: middle;
+    text-align: center;
+  }
+}

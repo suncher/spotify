@@ -1,0 +1,63 @@
+.SideNavigationMenu {
+    width: 301px;
+    height: calc(100% - 112px);
+    background: #000000;
+    position: fixed;
+    .logo {
+        position: absolute;
+        width: 164px;
+        height: 49px;
+        left: 29px;
+        top: 32px;
+    }
+    
+    .NavigationMenu {
+        margin-top: 100px;
+        background-color: black;
+    }
+    
+   
+    
+    .MainSquareDesign {
+        height: 30px;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &.LikedSongs {
+            background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+            
+        }
+        &.LikedSongs > img {
+            width: 20px;
+            height: 20px;
+        }
+        &.Playlist {
+            background-color: white;
+        }
+    }
+    
+   
+}
+
+
+
+
+
+.ant-menu-item-selected {
+    background-color: #282828 !important;
+    color: white !important;
+}
+
+.ant-menu-item:active {
+    background-color: #141414 !important;
+    color: white !important;
+}
+
+.ant-menu-item-selected:active {
+    background-color: #282828 !important;
+    color: white !important;
+}
+
+
+

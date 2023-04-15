@@ -1,0 +1,33 @@
+.top-playlist-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .top-playlist-card {
+    width: 226px;
+    height: 300px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 0px;
+    background-color: #181818;
+  }
+  
+  .top-playlist-cover {
+    max-width: 186px;
+    height: 186px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 14px;
+    font-size: 38px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .ant-card .ant-card-cover > * {
+    display: flex;
+    width: 100%;
+  }
+  

@@ -1,0 +1,39 @@
+.Container {
+  height: 100px;
+  width: 350px;
+  background-color: #303030;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #282828;
+
+  
+}
+.Container:hover {
+  background-color: #282828;
+  border: 1px solid #181818;
+}
+.Link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.Card {
+  display: flex;
+}
+
+.CardLogo {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%)
+}
+
+.CardTitle {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 20px;
+}
